@@ -41,7 +41,7 @@ class RestoreStateHelper(config: TaskerPluginConfig<Unit>) :
         get() = RestoreStateRunner::class.java
 
     override fun addToStringBlurb(input: TaskerInput<Unit>, blurbBuilder: StringBuilder) {
-        blurbBuilder.append("Shuffles All Songs Once the Service is Available")
+        blurbBuilder.append("Starts Auxio and restore the previous playback state")
     }
 }
 
